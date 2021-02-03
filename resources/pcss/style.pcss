@@ -1,0 +1,89 @@
+body {
+    /*  */
+}
+
+.hero {
+    @apply flex items-center justify-center text-white;
+
+    min-height: 600px;
+
+    &__title {
+        font-family: 'Lobster', cursive;
+        text-shadow: 2px 2px 2px rgba(0,0,0,1);
+        @apply text-5xl font-bold text-center leading-none mb-4;
+    }
+
+    &__text {
+        @apply text-center text-xl;
+    }
+
+    &__inner {
+        @apply max-w-5xl mx-auto py-8;
+    }
+}
+
+header h1 {
+    font-family: 'Lobster', cursive;
+    @apply text-2xl;
+}
+
+a {
+    @apply text-blue-500;
+}
+
+/*  ==========================================================================
+    Menu
+    ==========================================================================  */
+.menu {
+    @apply flex;
+    &__link {
+        @apply block px-4 py-2 text-white;
+    }
+}
+
+/*  ==========================================================================
+    Sidenav
+    ==========================================================================  */
+.sidenav {
+    @apply relative w-64 bg-gray-800 h-screen fixed top-0 left-0 text-white w-0 overflow-x-hidden transition-250;
+    &__menu {
+        @apply p-8;
+    }
+    &__link {
+        @apply block px-4 py-2 text-white;
+    }
+    &__close {
+        @apply absolute top-0 right-0 p-4;
+    }
+    &__icon {
+        @apply fill-current;
+    }
+}
+
+.markdown {
+    h1 {
+        @apply text-3xl font-bold mb-8;
+    }
+    h2 {
+        @apply text-2xl font-bold mb-4;
+    }
+    p {
+        @apply mb-4;
+    }
+
+    ul {
+        @apply list-disc my-4;
+    }
+
+    li {
+        @apply ml-8 mb-1;
+    }
+}
+
+.text-indent {
+    text-indent: 2rem;
+}
+
+.success {
+    @apply bg-green-500 px-6 py-4 mb-8 text-white;
+}
