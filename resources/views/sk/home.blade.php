@@ -30,14 +30,14 @@
         <li>obnova budovy bývalej ZŠ v Domaši na Vlastivedné múzeum.</li>
     </ul>
 
-    <div class="flex justify-center">
-        <a class="block px-4 py-2 bg-red-500 hover:bg-red-600 text-white mr-2 rounded flex items-center"
+    <div class="lg:flex justify-center">
+        <a class="block px-4 py-2 bg-red-500 hover:bg-red-600 text-white lg:mr-2 rounded flex items-center justify-center mb-2 lg:mb-0"
             href="/storage/vyhlasenie-o-poukazani-dane_dudich.pdf">
             <svg class="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                 <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
             </svg>STIAHNUŤ zamestnanec - vyhlásenie</a>
 
-        <a class="block px-4 py-2 bg-red-500 hover:bg-red-600 text-white ml-2 rounded flex items-center"
+        <a class="block px-4 py-2 bg-red-500 hover:bg-red-600 text-white lg:ml-2 rounded flex items-center justify-center"
             href="/storage/Potvrdenie o zaplateni dane z prijmov zo zavislej cinnosti.pdf">
             <svg class="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                 <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
