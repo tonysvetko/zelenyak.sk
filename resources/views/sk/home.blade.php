@@ -17,6 +17,34 @@
 
 @section('content')
 
+<div class="bg-red-100 text-red-500 border border-red-500 p-8 mb-8 rounded shadow">
+    <div class="text-3xl font-bold text-center mb-2">2% Z DANE</div>
+    <p class="mb-2">Ako každý rok, tak aj tento rok sa snažíme získať čo najviac financií na fungovanie nášho občianskeho združenie. Počas nášho 10 ročného fungovania bol rok 2020 zatiaľ najťažším rokom, nemali sme skoro žiadne príjmy, všetky výdavky počas roka hradil predseda nášho združenia.</p>
+
+    <p class="mb-2">Touto cestou Vás chceme poprosiť, ak nemáte komu poukázať 2% zo svojej už zaplatenej dane, môžete ich poukázať nášmu združeniu, čím podporíte všetky naše aktivity.</p>
+
+    <p class="mb-2 font-bold">Naše plány na rok 2021:</p>
+
+    <ul class="list-disc pl-4 mb-8">
+        <li>organizovanie kultúrno-spoločenských akcií (podľa pandemickej situácie),</li>
+        <li>obnova budovy bývalej ZŠ v Domaši na Vlastivedné múzeum.</li>
+    </ul>
+
+    <div class="flex justify-center">
+        <a class="block px-4 py-2 bg-red-500 hover:bg-red-600 text-white mr-2 rounded flex items-center"
+            href="/storage/vyhlasenie-o-poukazani-dane_dudich.pdf">
+            <svg class="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>STIAHNUŤ zamestnanec - vyhlásenie</a>
+
+        <a class="block px-4 py-2 bg-red-500 hover:bg-red-600 text-white ml-2 rounded flex items-center"
+            href="/storage/Potvrdenie o zaplateni dane z prijmov zo zavislej cinnosti.pdf">
+            <svg class="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>STIAHNUŤ zamestnanec - potvrdenie</a>
+    </div>
+</div>
+
 <section class="clearfix">
     <h2 class="text-3xl font-bold mb-8 text-center">HISTÓRIA BEHU</h2>
 

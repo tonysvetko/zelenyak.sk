@@ -26,7 +26,6 @@ module.exports = {
                 '300px': '300px',
             },
             variants: ['responsive'],
-        }),
-        require('tailwindcss-transitions')(),
+        })
     ]
 }
