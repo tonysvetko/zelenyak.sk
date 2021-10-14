@@ -78,4 +78,9 @@ class PagesController extends Controller
 
         return view('gdpr')->with(compact('text'));
     }
+
+    public function anouncement()
+    {
+        return view('anouncement');
+    }
 }

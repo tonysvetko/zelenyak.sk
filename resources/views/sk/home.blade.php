@@ -8,7 +8,7 @@
                 <div class="hero__text">Vitajte na stránke medzinárodného cestného behu Zelenyákova trinástka. </div>
                 <div class="hero__text">Naša bežecká súťaž patrí medzi jedny z najstarších na území Dolného Pohronia. Ak chcete zažiť jedinečný športový zážitok, tak Vás čakáme v októbri v Hronovciach. Kombináciu krásnej prírody a skvelých športovcov nájdete na medzinárodnom cestnom behu Zelenyákova trinástka. </div>
                 <div class="text-center my-12">
-                    <a href="{{ route('front.register') }}" class="bg-orange-600 text-white hover:bg-orange-500 font-bold px-8 py-4 uppercase rounded">Registrovať</a>
+                    <a href="https://registrace.sportsoft.cz/registration.aspx?e=2142" class="bg-orange-600 text-white hover:bg-orange-500 font-bold px-8 py-4 uppercase rounded">Registrovať</a>
                 </div>
             </div>
         </div>
@@ -17,6 +17,14 @@
 
 @section('content')
 
+    <div class="text-center mb-8">
+        <a href="{{ route('front.anouncement') }}" class="px-3 py-2 bg-gray-700 hover:bg-gray-800 text-white inline-flex items-center rounded">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+            VYHLÁSENIE ÚČASTNÍKA O ABSOLVOVANÍ TESTOVANIA
+        </a>
+    </div>
+
+{{--
 <div class="bg-red-100 text-red-500 border border-red-500 p-8 mb-8 rounded shadow">
     <div class="text-3xl font-bold text-center mb-2">2% Z DANE</div>
     <p class="mb-2">Ako každý rok, tak aj tento rok sa snažíme získať čo najviac financií na fungovanie nášho občianskeho združenie. Počas nášho 10 ročného fungovania bol rok 2020 zatiaľ najťažším rokom, nemali sme skoro žiadne príjmy, všetky výdavky počas roka hradil predseda nášho združenia.</p>
@@ -44,6 +52,7 @@
             </svg>STIAHNUŤ zamestnanec - potvrdenie</a>
     </div>
 </div>
+ --}}
 
 <section class="clearfix">
     <h2 class="text-3xl font-bold mb-8 text-center">HISTÓRIA BEHU</h2>

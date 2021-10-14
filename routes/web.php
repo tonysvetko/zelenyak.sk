@@ -12,3 +12,5 @@ Route::get(LaravelLocalization::transRoute('routes.contact'), 'PagesController@c
 Route::get(LaravelLocalization::transRoute('routes.gallery'), 'PagesController@gallery')->name('gallery');
 
 Route::get('/gdpr', 'PagesController@gdpr')->name('gdpr');
+
+Route::get('/vyhlasenie-ucastnika-o-absolvovani-testovania', 'PagesController@anouncement')->name('anouncement');

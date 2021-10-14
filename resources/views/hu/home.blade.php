@@ -8,7 +8,7 @@
                 <div class="hero__text">Üdvözöljük a Zelenyák tizenhármas nemzetközi futóverseny oldalán.</div>
                 <div class="hero__text">A rendezvényünk az Alsó-Garam menti térség egyik legrégibb futóversenye. Különleges sportélményt szeretne átélni? Ha igen, akkor Önre várunk októberben Lekéren. A gyönyörú természet és a kiváló sportolók ötvezete a Zelenyák tizenhármas nemzetközi futóverseny.</div>
                 <div class="text-center my-12">
-                    <a href="{{ route('front.register') }}" class="bg-orange-600 text-white hover:bg-orange-500 font-bold px-8 py-4 uppercase rounded">Regisztráció</a>
+                    <a href="https://registrace.sportsoft.cz/registration.aspx?e=2142" class="bg-orange-600 text-white hover:bg-orange-500 font-bold px-8 py-4 uppercase rounded">Regisztráció</a>
                 </div>
             </div>
         </div>
